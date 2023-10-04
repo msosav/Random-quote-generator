@@ -10,6 +10,7 @@ const phrases = [
   "Maybe life is testing you. Don’t give up.",
   "Impossible is just an opinion.",
   "Alone or not you gonna walk forward.",
+  "You are the only one who can limit your greatness.",
 ];
 
 app.get("/", (req, res) => {
