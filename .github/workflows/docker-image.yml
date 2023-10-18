@@ -21,8 +21,8 @@ jobs:
       run: |
         docker login -u $DOCKER_USER -p $DOCKER_PASS
     - name: Build the Docker image
-      run: docker build . --file Dockerfile --tag msosav/Random-quote-generator:latest
+      run: docker build . --file Dockerfile --tag msosav/express-randomquotes:latest
       
     - name: Docker Push
-      run: docker push msosav/Random-quote-generator
+      run: docker push msosav/express-randomquotes
 
